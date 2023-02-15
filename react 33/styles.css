@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    background-image: url(https://images.unsplash.com/photo-1676342267798-1f40c1e5f33c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    
+    font-size: 24px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0D47A1;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+.green {
+    color: rgb(26, 220, 26);
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
